@@ -1,0 +1,36 @@
+{
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "sap.watt.uitools.ide.web",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  },
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.32.0",
+      "dateTimeStamp": "Tue, 01 Mar 2016 15:20:36 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "beautifier": {
+    "keep_array_indentation": false,
+    "break_chained_methods": false,
+    "space_before_conditional": true,
+    "unescape_strings": false,
+    "tab_size": "1",
+    "max_preserve_newlines": "2",
+    "wrap_line_length": "140",
+    "brace_style": "collapse"
+  }
+}
